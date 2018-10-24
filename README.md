@@ -1,18 +1,18 @@
-Blog BDD en Ruby On Rails
-Ce projet a été fait par Quentin (@Dremsis)
+# Blog BDD en Ruby On Rails
+Ce projet codé par Robin Caron
 
-How to use
+## How to use
 Ruby version utilisé 2.5.1 
 Rails version utilisé 5.2.1 
 Pour commencer, il faut clone le repository :
 
-git clone https://github.com/JostQ/blog_rails
+`git clone https://github.com/JostQ/blog_rails`
 Tu dois te rediriger dans le dossier du projet :
 
 cd blog_rails
 Ensuite, tu dois installer les gems, donc écris dans ton termial :
 
-bundle install
+`bundle install`
 Schéma de la base de données
      ____________        ____________        ____________        ____________        ____________ 
     |   users    |      |   likes    |      |  articles  |      |  comments  |      | categories | 
@@ -29,11 +29,11 @@ Schéma de la base de données
 Initialisation de la base de données
 Pour mettre en place les tables dans la base de données :
 
-rails db:migrate
+`rails db:migrate`
 Et pour envoyer des données dans ces tables :
 
-rails db:seed
-Pour conclure
+`rails db:seed`
+## Pour conclure
 Tu peux faire tes tests dans la base de données depuis la console de Rails avec :
 
-rails console
+`rails console`
