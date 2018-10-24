@@ -7,12 +7,15 @@ Rails version utilisé 5.2.1 <br/>
 Pour commencer, il faut clone le repository :
 
 `git clone https://github.com/JostQ/blog_rails`<br/>
+
 Tu dois te rediriger dans le dossier du projet :
 
 `cd blog_rails`<br/>
+
 Ensuite, tu dois installer les gems, donc écris dans ton termial :
 
 `bundle install`<br/>
+
 Schéma de la base de données
 ```
      ____________        ____________        ____________        ____________        ____________ 
@@ -32,9 +35,11 @@ Initialisation de la base de données <br/>
 Pour mettre en place les tables dans la base de données :
 
 `rails db:migrate`<br/>
+
 Et pour envoyer des données dans ces tables :
 
 `rails db:seed`<br/>
+
 ## Pour conclure
 Tu peux faire tes tests dans la base de données depuis la console de Rails avec :
 
