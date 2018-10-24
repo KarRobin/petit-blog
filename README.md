@@ -14,6 +14,7 @@ Ensuite, tu dois installer les gems, donc écris dans ton termial :
 
 `bundle install`
 Schéma de la base de données
+```
      ____________        ____________        ____________        ____________        ____________ 
     |   users    |      |   likes    |      |  articles  |      |  comments  |      | categories | 
     |¯¯¯¯¯¯¯¯¯¯¯¯|      |¯¯¯¯¯¯¯¯¯¯¯¯|      |¯¯¯¯¯¯¯¯¯¯¯¯|      |¯¯¯¯¯¯¯¯¯¯¯¯|      |¯¯¯¯¯¯¯¯¯¯¯¯|
@@ -26,6 +27,7 @@ Schéma de la base de données
        |_____________________________________________|_________________|                   |
                                                     n|_____________________________________|
 
+```
 Initialisation de la base de données
 Pour mettre en place les tables dans la base de données :
 
