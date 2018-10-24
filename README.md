@@ -2,14 +2,14 @@
 Ce projet codé par Robin Caron
 
 ## How to use
-Ruby version utilisé 2.5.1 
-Rails version utilisé 5.2.1 
+Ruby version utilisé 2.5.1 <br/>
+Rails version utilisé 5.2.1 <br/>
 Pour commencer, il faut clone le repository :
 
 `git clone https://github.com/JostQ/blog_rails`
 Tu dois te rediriger dans le dossier du projet :
 
-cd blog_rails
+`cd blog_rails`
 Ensuite, tu dois installer les gems, donc écris dans ton termial :
 
 `bundle install`
@@ -28,7 +28,7 @@ Schéma de la base de données
                                                     n|_____________________________________|
 
 ```
-Initialisation de la base de données
+Initialisation de la base de données <br/>
 Pour mettre en place les tables dans la base de données :
 
 `rails db:migrate`
