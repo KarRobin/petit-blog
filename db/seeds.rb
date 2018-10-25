@@ -8,8 +8,6 @@
 require 'faker'
 require 'pry'
 
-rng = Random.new
-
 
 10.times do
   user = User.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, email: Faker::Internet.email)
@@ -18,8 +16,6 @@ end
 10.times do
   article = Article.create!(title: Faker::Lorem.sentence, content: Faker::Lorem.paragraph, user_id: User.all.ids.sample, category_id: Category.all.ids.sample)
 end
-
-binding.pry
 
 5.times do
   category = Category.create(name: Faker::Book.genre)
@@ -30,4 +26,3 @@ end
   like = Like.create!(user_id: User.all.ids.sample, article_id: Article.all.ids.sample)
 end
 
-=end
