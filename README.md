@@ -6,7 +6,7 @@ Ruby version utilisé 2.5.1 <br/>
 Rails version utilisé 5.2.1 <br/>
 Pour commencer, il faut clone le repository :
 
-`git clone https://github.com/JostQ/blog_rails`<br/>
+`https://github.com/KarRobin/petit-blog.git`<br/>
 
 Tu dois te rediriger dans le dossier du projet :
 
